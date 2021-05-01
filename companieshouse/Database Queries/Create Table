@@ -1,0 +1,10 @@
+CREATE TABLE `cekbpom`.`companieshouse` (
+  `Nomor_Registrasi` VARCHAR(15) NOT NULL,
+  `Tanggal_Terbit` DATETIME NULL,
+  `Diterbitkan_Oleh` VARCHAR(45) NOT NULL,
+  `Produk` VARCHAR(15) NOT NULL,
+  `Nama_Produk` VARCHAR(45) NULL,
+  `Merk` VARCHAR(25) NULL,
+  `Kemasan` VARCHAR(45) NULL,
+  `Pendaftar` VARCHAR(45) NULL,
+  PRIMARY KEY (`Nomor_Registrasi`, `Diterbitkan_Oleh`, `Produk`));
